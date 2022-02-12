@@ -192,3 +192,28 @@ footer {
     text-align: center;
 }
 
+@media screen and (max-width: 980px) {
+   header {
+       justify-content: center;
+}
+   .about-text {
+        margin: 0 20px;
+}
+}
+
+
+@media screen and (max-width: 768px) {
+    .about-text {
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width: 575px) {
+    .about-text {
+        width: 100%;
+}
+    .project-1 {
+        width: 500px;
+}
+}
