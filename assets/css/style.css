@@ -158,6 +158,11 @@ main {
     background-position: center;
 }
 
+.project-2-5 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .text-container {
     position: absolute;
     height: 75px;
