@@ -179,7 +179,7 @@ main {
 }
 
 /*contact styles*/
-.contact {
+#contact {
     display: flex;
     flex-wrap: wrap;
 }
