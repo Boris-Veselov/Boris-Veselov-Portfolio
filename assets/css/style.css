@@ -108,7 +108,7 @@ main {
     background: #ffff;
     position: relative;
     margin: 50px;
-    background-image: url(../images/ph.jpg);
+    background-image: url(../images/space1.jpg);
     background-size: cover;
     background-position: center;
 
@@ -120,7 +120,7 @@ main {
     background: #ffff;
     position: relative;
     margin: 50px;
-    background-image: url(../images/ph.jpg);
+    background-image: url(../images/space2.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -131,7 +131,7 @@ main {
     background: #ffff;
     position: relative;
     margin: 50px;
-    background-image: url(../images/ph.jpg);
+    background-image: url(../images/space3.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -142,7 +142,7 @@ main {
     background: #ffff;
     position: relative;
     margin: 50px;
-    background-image: url(../images/ph.jpg);
+    background-image: url(../images/space4.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -153,7 +153,7 @@ main {
     background: #ffff;
     position: relative;
     margin: 50px;
-    background-image: url(../images/ph.jpg);
+    background-image: url(../images/space5.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -161,6 +161,7 @@ main {
 .project-2-5 {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .text-container {
@@ -178,16 +179,16 @@ main {
 }
 
 /*contact styles*/
-.contact ul li h2{
+.contact {
+    display: flex;
+    flex-wrap: wrap;
+}
+.ul .li {
     height: 100px;
     background: #91b4c9;
     color: #4b4943;
-    display: flex;
-    justify-content: space-between;   
-    align-items: center; 
-    padding: 0 20px;
+    justify-content: space-between;  
 }
-
 
 /*footer styles*/
 footer {
@@ -196,29 +197,44 @@ footer {
     padding: 10px;
     text-align: center;
 }
-
+/*media queries*/
 @media screen and (max-width: 980px) {
    header {
        justify-content: center;
 }
    .about-text {
-        margin: 0 20px;
-}
-}
+       margin: 0 20px;
+    }
+    .project-2-5 {
+        justify-content: center;
+    }
+    .contact {
+        justify-content: center;
 
+    }
+}
 
 @media screen and (max-width: 768px) {
     .about-text {
         width: 100%;
     }
-
+    .project-2-5 {
+       justify-content: center;
+       
+    }
 }
 
 @media screen and (max-width: 575px) {
+    header nav{
+        width: 100%;
+    }
+    .contact {
+        justify-content: center;
+    }
     .about-text {
         width: 100%;
 }
     .project-1 {
         width: 500px;
-}
+    }
 }
