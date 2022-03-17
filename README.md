@@ -16,8 +16,11 @@
 ## Mobile responsovness
 * Media queries
 
+## Screenshot
+* ![Screenshot of index.html](./assets/images/screenshot.jpg)
+
 ## Website
-* https://veselavalava.github.io/Boris-Veselov-Portfolio/
+* https://boris-veselov.github.io/Boris-Veselov-Portfolio/
 
 
 ## Contribution
