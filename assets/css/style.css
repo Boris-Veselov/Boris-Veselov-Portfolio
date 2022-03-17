@@ -108,7 +108,7 @@ main {
     background: #ffff;
     position: relative;
     margin: 50px;
-    background-image: url(../images/space1.jpg);
+    background-image: url(../images/project1.jpg);
     background-size: cover;
     background-position: center;
 
@@ -182,6 +182,7 @@ main {
 #contact {
     display: flex;
     flex-wrap: wrap;
+    align-items: center;
 }
 .ul .li {
     height: 100px;
