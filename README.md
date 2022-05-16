@@ -13,7 +13,7 @@
 ## Navigation
 * Responsive links
 
-## Mobile responsovness
+## Mobile responsivness
 * Media queries
 
 ## Screenshot
